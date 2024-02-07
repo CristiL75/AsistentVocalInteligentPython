@@ -1,0 +1,29 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": ["Hi", "How are you?", "Hello!", "Hey", "Good day!", "What's up?", "Hello", "Cheers!"],
+            "responses": ["Hello!", "Nice to see you again!", "Hello, how can I help you?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Goodbye!", "See you later!", "Bye!", "I'm leaving!", "Have a good day", "bye", "ciao", "see you!"],
+            "responses": ["Sorry to see you go :(", "Talk to you later", "Goodbye!"]
+        },
+        {
+            "tag": "add_todo",
+            "patterns": ["I want to add a todo", "add a new todo", "add a todo to the list"],
+            "responses": [""]
+        },
+        {
+            "tag": "show_todo",
+            "patterns": ["I want to see the todo list", "What are my todos?"],
+            "responses": [""]
+        },
+        {
+            "tag": "add_note",
+            "patterns": ["Create a new note!", "I want to make a note"],
+            "responses": [""]
+        }
+    ]
+}
